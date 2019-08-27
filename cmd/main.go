@@ -13,7 +13,7 @@ import (
 const BatchSize = 2
 
 func main() {
-	// one back url to  print error
+	// one bad url to  print error
 	urls := []string{"http://www.yahoo.com", "http://www.google.com", "http://www.slashdot.com", "http://www.sdfasasdfasdfasfasdff.com", "http://www.youtube.com", "http://www.gmail.com", "http://github.com"}
 	// call in batches
 	for i := 0; i < len(urls); i += BatchSize {
